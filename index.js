@@ -3,7 +3,7 @@ const app = express();
 const port = 5000;
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://daehyun:eogus723!@cluster0.yeopo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://daehyun:@cluster0.yeopo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
     useNewUrlParser: true, useUnifiedTopology: true
 }).then(() => console.log('mongodb connected..'))
 .catch(err => console.log(err))
